@@ -1,15 +1,15 @@
 package com.springboot.firstproject;
 
-public class employee {
+public class Employee {
 	
 	private String id;
 	private String name;
 	
-	public employee() {
+	public Employee() {
 		
 	}
 	
-	public employee(String id, String name) {
+	public Employee(String id, String name) {
 		super();
 		this.id = id;
 		this.name = name;

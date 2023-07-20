@@ -32,6 +32,20 @@
 			<artifactId>spring-boot-admin-starter-client</artifactId>
 			<version>3.1.1</version>
 		</dependency>
+		<dependency>
+   			<groupId>org.springframework.boot</groupId>
+   			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+   			<groupId>org.jolokia</groupId>
+   			<artifactId>jolokia-core</artifactId>
+   			<version>1.7.2</version>
+		</dependency>
+		<dependency>
+    		<groupId>org.springframework.cloud</groupId>
+    		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    		<version>4.0.2</version>
+		</dependency>
 	</dependencies>
 
 	<build>
